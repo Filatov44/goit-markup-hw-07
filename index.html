@@ -453,58 +453,58 @@
     <!------------ Modal window ------------->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button type="button" class="modal-close-btn" data-modal-close>
+        <button type="button" class="modal__close-btn" data-modal-close>
           <svg width="18" height="18">
             <use href="./images/symbol-defs.svg#icon-modal-close-1"></use>
           </svg>
         </button>
         <!------------ Modal title ------------->
-        <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
+        <p class="modal__title">Оставьте свои данные, мы вам перезвоним</p>
         <!------------- Modal form ---------------->
         <form action="#" class="modal-form" name="modal_form">
-          <div class="modal-form-field">
-            <label for="user-name" class="modal-form-content">Имя</label>
+          <div class="modal-form__field">
+            <label for="user-name" class="modal-form__content">Имя</label>
             <input
-              class="modal-form-input"
+              class="modal-form__input"
               type="text"
               name="user-name"
               id="user-name"
               placeholder="Сергей"
             />
-            <svg class="modal-form-icon" width="18" height="18">
+            <svg class="modal-form__icon" width="18" height="18">
               <use href="./images/symbol-defs.svg#icon-person-modal"></use>
             </svg>
           </div>
-          <div class="modal-form-field">
-            <label for="user-tel" class="modal-form-content">Телефон</label>
+          <div class="modal-form__field">
+            <label for="user-tel" class="modal-form__content">Телефон</label>
             <input
-              class="modal-form-input"
+              class="modal-form__input"
               type="tel"
               name="user-tel"
               id="user-tel"
               placeholder="+38 066 111 11 11"
             />
-            <svg class="modal-form-icon" width="18" height="18">
+            <svg class="modal-form__icon" width="18" height="18">
               <use href="./images/symbol-defs.svg#icon-phone-modal"></use>
             </svg>
           </div>
-          <div class="modal-form-field">
-            <label for="user-email" class="modal-form-content">Почта</label>
+          <div class="modal-form__field">
+            <label for="user-email" class="modal-form__content">Почта</label>
             <input
-              class="modal-form-input"
+              class="modal-form__input"
               type="email"
               name="user-email"
               id="user-email"
               placeholder="email@address.com"
             />
-            <svg class="modal-form-icon" width="18" height="18">
+            <svg class="modal-form__icon" width="18" height="18">
               <use href="./images/symbol-defs.svg#icon-email-modal"></use>
             </svg>
           </div>
-          <div class="modal-form-field">
-            <label for="user-form-comment" class="modal-form-content">Комментарий</label>
+          <div class="modal-form__field">
+            <label for="user-form__comment" class="modal-form__content">Комментарий</label>
             <textarea
-              class="modal-form-comment"
+              class="modal-form__comment"
               name="user-form-comment"
               id="user-form-comment"
               placeholder="Введите Ваш комментарий"
@@ -513,20 +513,20 @@
           <!--Соглашение с условиями договора  -->
           <div class="modal-policy">
             <input
-              class="modal-policy-check visually-hidden"
+              class="modal-policy__check visually-hidden"
               type="checkbox"
               name="policy"
               id="policy"
             />
-            <label for="policy" class="policy-txt">
-              <span class="policy-svg">
-                <svg class="modal-policy-icon" width="16" height="15">
+            <label for="policy" class="modal-policy__txt">
+              <span class="modal-policy__svg">
+                <svg class="modal-policy__icon" width="16" height="15">
                   <use href="./images/symbol-defs.svg#icon-check"></use>
                 </svg>
               </span>
               Соглашаюсь с рассылкой и принимаю
               <a
-                class="modal-policy-link"
+                class="modal-policy__link"
                 href="https://google.com"
                 target="_blank"
                 rel="noopener norferrer"
@@ -534,7 +534,7 @@
               >
             </label>
           </div>
-          <button type="submit" class="modal-btn-submit">Отправить</button>
+          <button type="submit" class="modal-form__submit">Отправить</button>
         </form>
       </div>
     </div>
